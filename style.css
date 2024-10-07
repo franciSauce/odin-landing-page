@@ -91,3 +91,21 @@ a {
 .card {
     flex: 1 1 200px;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-style: bold;
+}
+
