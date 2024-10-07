@@ -8,6 +8,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   /* text-align: center; */
 }
 
@@ -17,12 +18,14 @@ body {
 }
 
 .header {
-
+    flex: 1;
 }
 
 .logo-links {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 5px 25px;
 }
 
 .logo {
@@ -44,7 +47,8 @@ a {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex: 1;
 }
 
 .hero-text .title {
@@ -56,6 +60,7 @@ a {
 .hero-text .text {
     font-size: 18px;
     color: #E5E7EB;
+    text-align: justify;
 }
 
 .hero button {
@@ -63,12 +68,17 @@ a {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 8px;
+    border: #3882F6;
+    font-size: 18px;
 
 }
 
 .hero-img {
-    width: 300px;
-    height: auto;
+    
+}
+
+.main {
+    flex: 3;
 }
 
 .random-info {
@@ -76,7 +86,7 @@ a {
 }
 
 .random-info .title {
-    margin-bottom: 32px;
+    margin-bottom: 52px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -89,7 +99,15 @@ a {
 }
 
 .card {
-    flex: 1 1 200px;
+    max-width: 200px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    border: solid #3882F6;
+    border-radius: 20px;
 }
 
 .quote {
@@ -102,6 +120,7 @@ a {
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
+    text-align: justify;
 }
 
 .author {
@@ -109,3 +128,28 @@ a {
     font-style: bold;
 }
 
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta .box {
+    display: flex;
+    background-color: #3882F6;
+}
+
+.box button {
+    background-color: #3882F6;
+    color: #F7F7F7;
+    border-color: #F7F7F7;
+    border-radius: 8px;
+    padding: 1px 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
