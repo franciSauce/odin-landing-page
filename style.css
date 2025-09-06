@@ -93,3 +93,33 @@ ul a {
     height: auto;
     flex-shrink: 1;
 }
+
+.box1 {
+    text-align: center;
+    padding: 25px 0 80px;
+}
+
+.box1 h2 {
+    margin-bottom: 32px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    border: solid #3882F6;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
